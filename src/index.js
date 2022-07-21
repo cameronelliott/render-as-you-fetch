@@ -10,9 +10,7 @@ const resource = wrapPromise(fetchUser());
 
 
 function ProfileDetails() {
-  // Try to read user info, although it might not have loaded yet
-  const user = resource.read();
-  return <h1>{user.name}</h1>;
+  return <h1>{resource.read().name}</h1>;
 }
 
 
@@ -31,5 +29,5 @@ const rootElement = document.getElementById(
   "root"
 );
 ReactDOM.createRoot(rootElement).render(
-  <App />
+  <App/>
 );
