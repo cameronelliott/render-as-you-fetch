@@ -1,11 +1,3 @@
-export function fetchProfileData() {
-  let userPromise = fetchUser();
-  let postsPromise = fetchPosts();
-  return {
-    user: wrapPromise(userPromise),
-    posts: wrapPromise(postsPromise)
-  };
-}
 
 // Suspense integrations like Relay implement
 // a contract like this to integrate with React.
