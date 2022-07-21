@@ -3,7 +3,7 @@
 // a contract like this to integrate with React.
 // Real implementations can be significantly more complex.
 // Don't copy-paste this into your project!
-function wrapPromise(promise) {
+export function wrapPromise(promise) {
   let status = "pending";
   let result;
   let suspender = promise.then(
@@ -29,7 +29,7 @@ function wrapPromise(promise) {
   };
 }
 
-function fetchUser() {
+export function fetchUser() {
   console.log("fetch user...");
   return new Promise((resolve) => {
     setTimeout(() => {
