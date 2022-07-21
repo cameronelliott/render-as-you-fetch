@@ -29,13 +29,13 @@ export function wrapPromise(promise) {
   };
 }
 
-export function fetchUser() {
+export function launchPeerConn() {
   console.log("fetch user...");
   return new Promise((resolve) => {
     setTimeout(() => {
-      console.log("fetched user");
+      console.log("PC connected");
       resolve({
-        name: "Ringo Starr"
+        name: "PC connected"
       });
     }, 2000);
   });
