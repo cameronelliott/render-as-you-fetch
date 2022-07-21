@@ -1,0 +1,24 @@
+
+
+
+
+notes
+
+convert js to ts for react article
+https://github.com/Microsoft/TypeScript-React-Conversion-Guide#typescript-react-conversion-guide
+
+
+https://blog.jakoblind.no/css-modules-webpack/
+
+create new webpack config
+https://createapp.dev/webpack/react--babel--css--typescript
+
+fix bable jsx
+https://stackoverflow.com/a/69655917/86375
+
+no more react-hot-loader
+https://github.com/facebook/react/issues/16604
+
+
+https://dmitripavlutin.com/timeout-fetch-request/
+
